@@ -30,7 +30,7 @@ namespace PROG8170_Assignment1.Tests
         [Test]
         public void GetLength_ActualInput6_ExpectedOutput7()
         {
-            var rec = new Rectangle(6, 7);
+            Rectangle rec = new Rectangle(6, 7);
             actualOutput = rec.GetLength();
             Assert.AreEqual(7, actualOutput, "Failed Intentioanlly");
         }
@@ -46,14 +46,14 @@ namespace PROG8170_Assignment1.Tests
         [Test]
         public void SetLength_SetLengthTo9_ExpectedOutput9()
         {
-            var rec = new Rectangle(9, 5);
+            Rectangle rec = new Rectangle(9, 5);
             actualOutput = rec.SetLength(9);
             Assert.AreEqual(9, actualOutput);
         }
         [Test]
         public void SetLength_SetLengthTo8_ExpectedOutput5()
         {
-            var rec = new Rectangle(1, 5);
+            Rectangle rec = new Rectangle(1, 5);
             actualOutput = rec.SetLength(8);
             Assert.AreEqual(5, actualOutput, "Failed Intentioanlly");
         }
@@ -75,7 +75,7 @@ namespace PROG8170_Assignment1.Tests
         [Test]
         public void GetWidth_ActualInput6_ExpectedOutput7()
         {
-            var rec = new Rectangle(7, 6);
+            Rectangle rec = new Rectangle(7, 6);
             actualOutput = rec.GetWidth();
             Assert.AreEqual(7, actualOutput, "Failed Intentioanlly");
         }
@@ -90,14 +90,14 @@ namespace PROG8170_Assignment1.Tests
         [Test]
         public void SetWidth_SetWidthTo9_ExpectedOutput9()
         {
-            var rec = new Rectangle(9, 5);
+            Rectangle rec = new Rectangle(9, 5);
             actualOutput = rec.SetWidth(9);
             Assert.AreEqual(9, actualOutput);
         }
         [Test]
         public void SetWidth_SetWidthTo8_ExpectedOutput5()
         {
-            var rec = new Rectangle(1, 5);
+            Rectangle rec = new Rectangle(1, 5);
             actualOutput = rec.SetWidth(8);
             Assert.AreEqual(5, actualOutput, "Failed Intentioanlly");
         }
@@ -105,21 +105,21 @@ namespace PROG8170_Assignment1.Tests
         [Test]
         public void GetArea_ActutalInputs2_5_ExpectedOutput10()
         {
-            var rec = new Rectangle(2, 5);
+            Rectangle rec = new Rectangle(2, 5);
             actualOutput = rec.GetArea();
             Assert.AreEqual(10, actualOutput);
         }
         [Test]
         public void GetArea_ActutalInputs5_5_ExpectedOutput25()
         {
-            var rec = new Rectangle(5, 5);
+            Rectangle rec = new Rectangle(5, 5);
             actualOutput = rec.GetArea();
             Assert.AreEqual(25, actualOutput);
         }
         [Test]
         public void GetArea_ActutalInputs3_5_ExpectedOutput15()
         {
-            var rec = new Rectangle(3, 5);
+            Rectangle rec = new Rectangle(3, 5);
             actualOutput = rec.GetArea();
             Assert.AreEqual(20, actualOutput, "Failed Intentioanlly");
         }
@@ -127,21 +127,21 @@ namespace PROG8170_Assignment1.Tests
         [Test]
         public void GetPereimeter_ActualInputs8_5_ExpectedOutput26()
         {
-            var rec = new Rectangle(8, 5);
+            Rectangle rec = new Rectangle(8, 5);
             actualOutput = rec.GetPerimeter();
             Assert.AreEqual(26, actualOutput);
         }
         [Test]
         public void GetPereimeter_ActualInputs2_3_ExpectedOutput10()
         {
-            var rec = new Rectangle(2, 3);
+            Rectangle rec = new Rectangle(2, 3);
             actualOutput = rec.GetPerimeter();
             Assert.AreEqual(10, actualOutput);
         }
         [Test]
         public void GetPereimeter_ActualInputs4_4_ExpectedOutput16()
         {
-            var rec = new Rectangle(4, 4);
+            Rectangle rec = new Rectangle(4, 4);
             actualOutput = rec.GetPerimeter();
             Assert.AreEqual(20, actualOutput, "Failed Intentioanlly");
         }
